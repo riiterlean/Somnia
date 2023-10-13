@@ -1,0 +1,127 @@
+.center {
+    border: 1px solid rgba(50, 50, 50, 1);
+    background-color: rgb(35, 35, 35);
+    padding: 5px 5px 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 15%;
+}
+
+/* Input */
+
+.input-button,
+.input-field {
+    margin-top: 5px;
+    width: 80%;
+    font-size: 18px;
+    color: white;
+    height: 40px;
+    border: none;
+}
+
+.input-button {
+    background-color: rgb(90, 190, 90);
+}
+
+.input-button:hover {
+    color: black;
+}
+
+.input-field:focus {
+    outline: none;
+    border-bottom: 2px solid rgba(90, 190, 90, 1);
+}
+
+.input-button:focus {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+.input-button:disabled,
+.input-button:disabled:hover {
+    background-color: rgba(40, 40, 40, 1);
+    color: white;
+}
+
+.input-field {
+    background-color: rgb(40, 40, 40);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 5px 0 0;
+    text-align: right;
+    padding-right: 10%;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #333;
+    border: none;
+    border-bottom: 2px solid rgba(90, 190, 90, 1);
+    height: 50px;
+    padding-bottom: 3px;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    color: rgba(90, 190, 90, 1);
+}
+
+.navbar a.initials {
+    float: left;
+    font-size: 40px;
+    padding-left: 5px;
+    color: white;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    border: none;
+}
+
+/* Misc */
+
+body,
+html {
+    background-color: rgb(30, 30, 30);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
